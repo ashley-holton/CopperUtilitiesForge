@@ -25,27 +25,6 @@ public class Config {
     public static ForgeConfigSpec.ConfigValue<Integer> CopperAxeDamage;
     public static ForgeConfigSpec.ConfigValue<Float> CopperAxeAttackSpeed;
 
-    
-    public static ForgeConfigSpec.ConfigValue<Integer> WaxedCopperHelmetDurability;
-    public static ForgeConfigSpec.ConfigValue<Integer> WaxedCopperChestplateDurability;
-    public static ForgeConfigSpec.ConfigValue<Integer> WaxedCopperLeggingsDurability;
-    public static ForgeConfigSpec.ConfigValue<Integer> WaxedCopperBootsDurability;
-
-    public static ForgeConfigSpec.ConfigValue<Integer> WaxedCopperHelmetProtection;
-    public static ForgeConfigSpec.ConfigValue<Integer> WaxedCopperChestplateProtection;
-    public static ForgeConfigSpec.ConfigValue<Integer> WaxedCopperLeggingsProtection;
-    public static ForgeConfigSpec.ConfigValue<Integer> WaxedCopperBootsProtection;
-
-    public static ForgeConfigSpec.ConfigValue<Integer> WaxedCopperToolsDurability;
-    public static ForgeConfigSpec.ConfigValue<Integer> WaxedCopperToolsMiningLevel;
-
-    public static ForgeConfigSpec.ConfigValue<Integer> WaxedCopperSwordDamage;
-    public static ForgeConfigSpec.ConfigValue<Float> WaxedCopperSwordAttackSpeed;
-
-    public static ForgeConfigSpec.ConfigValue<Integer> WaxedCopperAxeDamage;
-    public static ForgeConfigSpec.ConfigValue<Float> WaxedCopperAxeAttackSpeed;
-
-
     static {
         BUILDER.push("The config is currently under development and is unstable.\nCopper Equipment Mod Config!");
 
@@ -68,29 +47,6 @@ public class Config {
 
         CopperAxeDamage = BUILDER.comment(" # #").define("Copper Axe Damage", 9);
         CopperAxeAttackSpeed = BUILDER.define("Copper Axe Attack Speed", -3.1f);
-
-        BUILDER.pop();
-        BUILDER.push("Copper Equipment Mod! Waxed Config!");
-
-        WaxedCopperHelmetDurability = BUILDER.define("Waxed Copper Helmet Durability", 312);
-        WaxedCopperChestplateDurability = BUILDER.define("Waxed Copper Chestplate Durability", 398);
-        WaxedCopperLeggingsDurability = BUILDER.define("Waxed Copper Leggings Durability", 379);
-        WaxedCopperBootsDurability = BUILDER.define("Waxed Copper Boots Durability", 334);
-
-        WaxedCopperHelmetProtection = BUILDER.comment(" # #").define("Waxed Copper Helmet Protection", 1);
-        WaxedCopperChestplateProtection = BUILDER.define("Waxed Copper Chestplate Protection", 5);
-        WaxedCopperLeggingsProtection = BUILDER.define("Waxed Copper Leggings Protection", 4);
-        WaxedCopperBootsProtection = BUILDER.define("Waxed Copper Boots Protection", 1);
-
-
-        WaxedCopperToolsDurability = BUILDER.comment(" # #\n # #").define("Waxed Copper Tools Durability", 420);
-        WaxedCopperToolsMiningLevel = BUILDER.define("Waxed Copper Tools Mining Level", 2);
-
-        WaxedCopperSwordDamage = BUILDER.comment(" # #").define("Waxed Copper Sword Damage", 6);
-        WaxedCopperSwordAttackSpeed = BUILDER.define("Waxed Copper Sword Attack Speed", -2.5f);
-
-        WaxedCopperAxeDamage = BUILDER.comment(" # #").define("Waxed Copper Axe Damage", 9);
-        WaxedCopperAxeAttackSpeed = BUILDER.define("Waxed Copper Axe Attack Speed", -3.3f);
 
         BUILDER.pop();
         CE_CFG = BUILDER.build();

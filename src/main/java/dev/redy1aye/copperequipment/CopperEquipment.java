@@ -20,7 +20,6 @@ public class CopperEquipment {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
         Items.ITEMS.register(bus);
-        Blocks.BLOCKS.register(bus);
 
         ModLoadingContext.get().registerConfig(Type.COMMON, Config.CE_CFG, "CopperEquipmentMod-Config.toml");
         MinecraftForge.EVENT_BUS.register(this);
