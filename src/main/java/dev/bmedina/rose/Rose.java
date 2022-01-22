@@ -21,7 +21,7 @@ public class Rose {
 
         Items.ITEMS.register(bus);
 
-        ModLoadingContext.get().registerConfig(Type.COMMON, Config.CE_CFG, "RoseMod-Config.toml");
+        ModLoadingContext.get().registerConfig(Type.COMMON, Config.R_CFG, "RoseMod-Config.toml");
         MinecraftForge.EVENT_BUS.register(this);
     }
 }

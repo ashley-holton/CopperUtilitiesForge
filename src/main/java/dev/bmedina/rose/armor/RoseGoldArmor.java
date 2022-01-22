@@ -21,7 +21,7 @@ public class RoseGoldArmor implements ArmorMaterial
     static int RoseGoldChestplateProtection = Config.RoseGoldChestplateProtection.get();
     static int RoseGoldHelmetProtection = Config.RoseGoldHelmetProtection.get();
 
-    public static final ArmorMaterial COPPER_ARMOR = new RoseGoldArmor();
+    public static final ArmorMaterial ROSE_GOLD_ARMOR = new RoseGoldArmor();
 
     private static final int[] Durability = new int[] {RoseGoldBootsDurability, RoseGoldLeggingsDurability, RoseGoldChestplateDurability, RoseGoldHelmetDurability};
     private static final int[] Protection = new int[] {RoseGoldBootsProtection, RoseGoldLeggingsProtection, RoseGoldChestplateProtection, RoseGoldHelmetProtection};
@@ -39,7 +39,7 @@ public class RoseGoldArmor implements ArmorMaterial
 
     @Override
     public int getEnchantmentValue() {
-        return 12;
+        return 25;
     }
 
     @Override
@@ -49,7 +49,7 @@ public class RoseGoldArmor implements ArmorMaterial
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.of(Items.COPPER_INGOT);
+        return Ingredient.of(Items.GOLD_INGOT);
     }
 
     @Override

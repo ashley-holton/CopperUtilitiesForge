@@ -21,39 +21,39 @@ public class Items {
     static int RoseGoldAxeDamage = Config.RoseGoldAxeDamage.get();
     static float RoseGoldAxeAttackSpeed = Config.RoseGoldAxeAttackSpeed.get();
 
-    public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("rose_gold_sword",
-            () -> new SwordItem(RoseGoldTools.COPPER_TOOL, RoseGoldSwordDamage, RoseGoldSwordAttackSpeed,
+    public static final RegistryObject<Item> ROSE_GOLD_SWORD = ITEMS.register("rose_gold_sword",
+            () -> new SwordItem(RoseGoldTools.ROSE_GOLD_TOOL, RoseGoldSwordDamage, RoseGoldSwordAttackSpeed,
                     new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> COPPER_SHOVEL = ITEMS.register("rose_gold_shovel",
-            () -> new ShovelItem(RoseGoldTools.COPPER_TOOL, 1, -2.5f,
+    public static final RegistryObject<Item> ROSE_GOLD_SHOVEL = ITEMS.register("rose_gold_shovel",
+            () -> new ShovelItem(RoseGoldTools.ROSE_GOLD_TOOL, 1, -2.5f,
                     new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
 
-    public static final RegistryObject<Item> COPPER_PICKAXE = ITEMS.register("rose_gold_pickaxe",
-            () -> new PickaxeItem(RoseGoldTools.COPPER_TOOL, 1, -2.8f,
+    public static final RegistryObject<Item> ROSE_GOLD_PICKAXE = ITEMS.register("rose_gold_pickaxe",
+            () -> new PickaxeItem(RoseGoldTools.ROSE_GOLD_TOOL, 1, -2.8f,
                     new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
 
-    public static final RegistryObject<Item> COPPER_AXE = ITEMS.register("rose_gold_axe",
-            () -> new AxeItem(RoseGoldTools.COPPER_TOOL, RoseGoldAxeDamage, RoseGoldAxeAttackSpeed,
+    public static final RegistryObject<Item> ROSE_GOLD_AXE = ITEMS.register("rose_gold_axe",
+            () -> new AxeItem(RoseGoldTools.ROSE_GOLD_TOOL, RoseGoldAxeDamage, RoseGoldAxeAttackSpeed,
                     new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
 
-    public static final RegistryObject<Item> COPPER_HOE = ITEMS.register("rose_gold_hoe",
-            () -> new HoeItem(RoseGoldTools.COPPER_TOOL, -2, -0.5f,
+    public static final RegistryObject<Item> ROSE_GOLD_HOE = ITEMS.register("rose_gold_hoe",
+            () -> new HoeItem(RoseGoldTools.ROSE_GOLD_TOOL, -2, -0.5f,
                     new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
 
-    public static final RegistryObject<Item> COPPER_HELMET = ITEMS.register("rose_gold_helmet",
-            () -> new ArmorItem(RoseGoldArmor.COPPER_ARMOR, EquipmentSlot.HEAD,
+    public static final RegistryObject<Item> ROSE_GOLD_HELMET = ITEMS.register("rose_gold_helmet",
+            () -> new ArmorItem(RoseGoldArmor.ROSE_GOLD_ARMOR, EquipmentSlot.HEAD,
                     new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> COPPER_CHESTPLATE = ITEMS.register("rose_gold_chestplate",
-            () -> new ArmorItem(RoseGoldArmor.COPPER_ARMOR, EquipmentSlot.CHEST,
+    public static final RegistryObject<Item> ROSE_GOLD_CHESTPLATE = ITEMS.register("rose_gold_chestplate",
+            () -> new ArmorItem(RoseGoldArmor.ROSE_GOLD_ARMOR, EquipmentSlot.CHEST,
                     new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> COPPER_LEGGINGS = ITEMS.register("rose_gold_leggings",
-            () -> new ArmorItem(RoseGoldArmor.COPPER_ARMOR, EquipmentSlot.LEGS,
+    public static final RegistryObject<Item> ROSE_GOLD_LEGGINGS = ITEMS.register("rose_gold_leggings",
+            () -> new ArmorItem(RoseGoldArmor.ROSE_GOLD_ARMOR, EquipmentSlot.LEGS,
                     new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<Item> COPPER_BOOTS = ITEMS.register("rose_gold_boots",
-            () -> new ArmorItem(RoseGoldArmor.COPPER_ARMOR, EquipmentSlot.FEET,
+    public static final RegistryObject<Item> ROSE_GOLD_BOOTS = ITEMS.register("rose_gold_boots",
+            () -> new ArmorItem(RoseGoldArmor.ROSE_GOLD_ARMOR, EquipmentSlot.FEET,
                     new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 }

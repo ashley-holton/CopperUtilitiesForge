@@ -10,7 +10,7 @@ import net.minecraftforge.common.Tags;
 public class RTags {
     public static class Items {
 
-        public static final Tags.IOptionalNamedTag<Item> COPPER_STUFF = createForgeTag("rose_gold_stuff");
+        public static final Tags.IOptionalNamedTag<Item> ROSE_GOLD_STUFF = createForgeTag("rose_gold_stuff");
 
         private static Tags.IOptionalNamedTag<Item> createTag(String name) {
             return ItemTags.createOptional(new ResourceLocation(Rose.MOD_ID, name));
