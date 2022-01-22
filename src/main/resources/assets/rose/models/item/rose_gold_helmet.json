@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "rose:item/rose_gold_helmet"
+  }
+}

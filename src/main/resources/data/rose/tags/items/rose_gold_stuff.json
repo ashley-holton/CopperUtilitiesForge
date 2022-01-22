@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "rose:rose_gold_sword",
+    "rose:rose_gold_shovel",
+    "rose:rose_gold_pickaxe",
+    "rose:rose_gold_axe",
+    "rose:rose_gold_hoe",
+
+    "rose:rose_gold_helmet",
+    "rose:rose_gold_chestplate",
+    "rose:rose_gold_leggings",
+    "rose:rose_gold_boots"
+  ]
+}

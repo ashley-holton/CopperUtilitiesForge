@@ -3,21 +3,21 @@ loaderVersion="[39,)"
 license="MIT"
 
 [[mods]]
-modId="copperequipment"
-version="1.1"
-displayName="Copper Equipment"
-logoFile="copperequipment-forge-logo.png"
-authors="Redy1aye"
-description="Enjoy your copper armor and tools!"
+modId="rose"
+version="1.0"
+displayName="Rosé"
+logoFile="rose-forge-logo.png"
+authors="bmedina"
+description="rose gold armor and tools"
 
-[[dependencies.copperequipment]]
+[[dependencies.rose]]
     modId="forge"
     mandatory=true
     versionRange="[39,)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.copperequipment]]
+[[dependencies.rose]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.18,1.19)"

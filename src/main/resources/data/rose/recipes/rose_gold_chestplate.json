@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "c c",
+        "ccc",
+        "ccc"
+    ],
+    "key": {
+        "c": {
+            "item": "rose:compressed_rose_gold"
+        }
+    },
+  "result": {
+    "item": "rose:rose_gold_chestplate",
+    "count": 1
+  }
+}
