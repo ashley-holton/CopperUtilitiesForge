@@ -1,25 +1,12 @@
 {
-  "item.copperequipment.copper_nugget": "Copper Nugget",
-
   "item.copperequipment.copper_sword": "Copper Sword",
   "item.copperequipment.copper_pickaxe": "Copper Pickaxe",
   "item.copperequipment.copper_axe": "Copper Axe",
   "item.copperequipment.copper_shovel": "Copper Shovel",
   "item.copperequipment.copper_hoe": "Copper Hoe",
-  "item.copperequipment.copper_shears": "Copper Shears",
 
   "item.copperequipment.copper_helmet": "Copper Helmet",
   "item.copperequipment.copper_chestplate": "Copper Chestplate",
   "item.copperequipment.copper_leggings": "Copper Leggings",
-  "item.copperequipment.copper_boots": "Copper Boots",
-
-  "item.copperequipment.copper_bucket": "Copper Bucket [WIP]",
-  "item.copperequipment.water_copper_bucket": "Copper Bucket [WIP]",
-  "item.copperequipment.powder_snow_copper_bucket": "Copper Bucket [WIP]",
-  "item.copperequipment.milk_copper_bucket": "Copper Bucket [WIP]",
-  "item.copperequipment.pufferfish_copper_bucket": "Copper Bucket [WIP]",
-  "item.copperequipment.salmon_copper_bucket": "Copper Bucket [WIP]",
-  "item.copperequipment.cod_copper_bucket": "Copper Bucket [WIP]",
-  "item.copperequipment.tropical_fish_copper_bucket": "Copper Bucket [WIP]",
-  "item.copperequipment.axolotl_copper_bucket": "Copper Bucket [WIP]"
+  "item.copperequipment.copper_boots": "Copper Boots"
 }

@@ -21,10 +21,6 @@ public class Items {
     static int CopperAxeDamage = Config.CopperAxeDamage.get();
     static float CopperAxeAttackSpeed = Config.CopperAxeAttackSpeed.get();
 
-    public static final RegistryObject<Item> COPPER_NUGGET = ITEMS.register("copper_nugget",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
-
-
     public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword",
             () -> new SwordItem(CopperTools.COPPER_TOOL, CopperSwordDamage, CopperSwordAttackSpeed,
                     new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
@@ -44,9 +40,6 @@ public class Items {
     public static final RegistryObject<Item> COPPER_HOE = ITEMS.register("copper_hoe",
             () -> new HoeItem(CopperTools.COPPER_TOOL, -2, -0.5f,
                     new Item.Properties().tab(CreativeModeTab.TAB_TOOLS)));
-
-    public static final RegistryObject<Item> COPPER_SHEARS = ITEMS.register("copper_shears",
-            () -> new ShearsItem(new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_TOOLS).durability(CopperTools.COPPER_TOOL.getUses())));
 
     public static final RegistryObject<Item> COPPER_HELMET = ITEMS.register("copper_helmet",
             () -> new ArmorItem(CopperArmor.COPPER_ARMOR, EquipmentSlot.HEAD,
