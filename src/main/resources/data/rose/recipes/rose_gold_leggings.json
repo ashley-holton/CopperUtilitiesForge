@@ -1,17 +1,12 @@
 {
-    "type": "crafting_shaped",
-    "pattern": [
-        "ccc",
-        "c c",
-        "c c"
-    ],
-    "key": {
-        "c": {
-            "item": "rose:compressed_rose_gold"
-        }
-    },
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:golden_leggings"
+  },
+  "addition": {
+    "item": "minecraft:copper_block"
+  },
   "result": {
-    "item": "rose:rose_gold_leggings",
-    "count": 1
+    "item": "rose:rose_gold_leggings"
   }
 }

@@ -1,20 +1,12 @@
 {
-    "type": "crafting_shaped",
-    "pattern": [
-        "c",
-        "c",
-        "/"
-    ],
-    "key": {
-        "c": {
-            "item": "rose:compressed_rose_gold"
-        },
-        "/": {
-            "item": "stick"
-        }
+    "type": "minecraft:smithing",
+    "base": {
+      "item": "minecraft:golden_sword"
     },
-  "result": {
-    "item": "rose:rose_gold_sword",
-    "count": 1
+    "addition": {
+      "item": "minecraft:copper_block"
+    },
+    "result": {
+      "item": "rose:rose_gold_sword"
+    }
   }
-}
