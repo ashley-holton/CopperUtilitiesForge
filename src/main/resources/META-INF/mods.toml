@@ -8,7 +8,7 @@ version="1.0"
 displayName="Rosé"
 logoFile="rose-forge-logo.png"
 authors="bmedina"
-description="rose gold armor and tools"
+description="Rose gold armor and tools."
 
 [[dependencies.rose]]
     modId="forge"
