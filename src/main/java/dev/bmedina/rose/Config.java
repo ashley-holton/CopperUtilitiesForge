@@ -42,10 +42,10 @@ public class Config {
         RoseGoldToolsDurability = BUILDER.comment(" # #\n # #").define("Rose Gold Tools Durability", 250);
         RoseGoldToolsMiningLevel = BUILDER.define("Rose Gold Tools Mining Level", 2);
 
-        RoseGoldSwordDamage = BUILDER.comment(" # #").define("Rose Gold Sword Damage", 6);
+        RoseGoldSwordDamage = BUILDER.comment(" # #").define("Rose Gold Sword Damage", 3);
         RoseGoldSwordAttackSpeed = BUILDER.define("Rose Gold Sword Attack Speed", -2.4f);
 
-        RoseGoldAxeDamage = BUILDER.comment(" # #").define("Rose Gold Axe Damage", 9);
+        RoseGoldAxeDamage = BUILDER.comment(" # #").define("Rose Gold Axe Damage", 6);
         RoseGoldAxeAttackSpeed = BUILDER.define("Rose Gold Axe Attack Speed", -3.1f);
 
         BUILDER.pop();

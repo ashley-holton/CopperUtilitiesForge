@@ -26,7 +26,7 @@ public class RoseGoldTools implements Tier {
 
     @Override
     public float getAttackDamageBonus() {
-        return -1;
+        return 2;
     }
 
     @Override
